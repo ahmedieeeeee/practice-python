@@ -1,0 +1,11 @@
+def transcribe_dna_to_rna(dna_string):
+    # Replace all 'T' with 'U'
+    rna_string = dna_string.replace('T', 'U')
+    return rna_string
+
+# Sample DNA string
+dna = "GATGGAACTTGACTACGTAAATT"
+
+# Call the function and print the RNA string
+rna = transcribe_dna_to_rna(dna)
+print(rna)
