@@ -1,0 +1,13 @@
+#1 Problem: Counting DNA Nucleotides
+def count_nucleotides(dna_string):
+    count_A = dna_string.count('A')
+    count_C = dna_string.count('C')
+    count_G = dna_string.count('G')
+    count_T = dna_string.count('T')
+    return count_A, count_C, count_G, count_T
+
+if __name__ == "__main__":
+    dna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+    a, c, g, t = count_nucleotides(dna)
+    print(f"A: {a}, C: {c}, G: {g}, T: {t}")
+
